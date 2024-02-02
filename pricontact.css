@@ -1,0 +1,52 @@
+body {
+  background-color: #ADD8E6;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-image: url('https://img.freepik.com/free-vector/abstract-geometric-wireframe-background_52683-59421.jpg');
+  background-size: cover;
+  color:  rgb(15, 15, 15);
+  text-align: center;
+  padding: 50px 0;
+}
+
+nav {
+  background-color: rgba(44, 62, 80, 0.8);
+  display: flex;
+  justify-content: center;
+}
+nav a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+nav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.content {
+  padding: 20px;
+  margin: 10px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 8px;
+}
+footer {
+  background-color: rgba(44, 62, 80, 0.8);
+  color: rgb(10, 10, 10);
+  text-align: center;
+  padding: 10px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+footer a {
+  color: #090909;
+  text-decoration: none;
+}
+footer a:hover {
+  text-decoration: underline;
+}
